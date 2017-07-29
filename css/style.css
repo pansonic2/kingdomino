@@ -1,0 +1,22 @@
+
+.body_div div {
+  width: 100px;
+  height: 100px
+  margin: 20px;
+}
+#button1, #scorebtn, #Restart {
+  font-size: 24px;
+  color: red;
+  width:250px;
+}
+form {
+display: inline-block;
+font-size: 24px;
+width:200px;
+     }
+#showscore {
+  font-size: 24px;
+  color: blue;
+}
+
+
