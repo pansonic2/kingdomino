@@ -1,9 +1,9 @@
 var counter = 1;
 
 $('#button1').click(function(){
-	var $terrainOption = $("<form>terrain<select><option>Sea</option><option>Sand</option><option>Forest</option><option>Cave</option><option>Gray</option><option>Field</option></select></form>");
+	var $terrainOption = $("<form>terrain<select><option>Sea</option><option>Sand</option><option>Forest</option><option>Cave (Dark Gray)</option><option>Light Gray</option><option>Field</option></select></form>");
   $terrainOption.attr("id", "terra" + counter++);
-  var $crownOption = $("<form>crowns<select><option>1</option><option>2</option><option>3</option></select></form>");
+  var $crownOption = $("<form>crowns<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select></form>");
   $crownOption.attr("id", "crown" + counter++);
   var $tileOption = $("<form>tiles<select><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></form><br>");
   $tileOption.attr("id", "tile" + counter++);
