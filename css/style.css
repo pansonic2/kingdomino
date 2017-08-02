@@ -1,28 +1,32 @@
+button {
+  width: 200px;
+  height: 100px;
+  font-family: "helvetica";
+  font-size: 18px;
+}
 
-.body_div div {
-  width: 100px;
-  height: 100px
-  margin: 20px;
+#revealscore {
+  font-family: "helvetica";
+  font-size: 50px;
 }
-#button1, #scorebtn, #Restart {
-  font-size: 24px;
-  color: red;
-  width:250px;
-}
+
 form {
-display: inline-block;
-font-size: 24px;
-width:200px;
-     }
-
-select {
-  display:inline-block;
-    font-size: 20px;
-  
-  
-#showscore {
   font-size: 24px;
-  color: blue;
+  option: 24px;
+  
+  float:left;
+  clear:right;
+  
+  
+  
 }
 
+select { 
+  
+   font-size: 18px;
+  font-family: "helvetica";
+}
 
+#removebuttons {
+  color:red;
+}
